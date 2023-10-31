@@ -1,0 +1,12 @@
+nav {
+    background-color: #89a6a1;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.collapse {
+    visibility: visible !important;
+}
