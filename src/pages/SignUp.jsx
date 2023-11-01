@@ -5,6 +5,7 @@ import {MdEmail} from "react-icons/md";
 import {MdPassword} from "react-icons/md";
 
 import '../assets/css/sign-up.css'
+import OAuth from "../shared/components/OAuth/OAuth.jsx";
 
 export default function SignUp() {
   return (
@@ -18,7 +19,7 @@ export default function SignUp() {
                     Sign Up
                   </h2>
 
-                  <form>
+                  <form action="/SignUp" method="post">
                     <div className="form-item mb-4">
                     <span className="icon">
                       <FaUser></FaUser>
@@ -63,13 +64,14 @@ export default function SignUp() {
                       />
                     </div>
 
-                    <div className="d-flex justify-content-center">
-                      <Link
+                    <div className="btns-container">
+                    <Link
                         type="button" to={"/profile"}
                         className="btn btn-outline-secondary"
                       >
                         Register
                       </Link>
+                      <OAuth></OAuth>
                     </div>
 
                     <p className="text-center text-muted mt-5 mb-0">

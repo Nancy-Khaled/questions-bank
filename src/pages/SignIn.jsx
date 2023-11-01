@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import {FaUser} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 import {MdPassword} from "react-icons/md";
 
 import '../assets/css/sign-in.css'
+import OAuth from '../shared/components/OAuth/OAuth';
 
 export default function SignIn() {
   return (
-    <section>
+    <section className='mt-3 mb-4'>
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-12 col-md-9 col-lg-7 col-xl-6">
@@ -18,18 +18,7 @@ export default function SignIn() {
                     Sign In
                   </h2>
 
-                  <form method='' action=''>
-                    <div className="form-item mb-4">
-                    <span className="icon">
-                      <FaUser></FaUser>
-                    </span>
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Enter Name"
-                      />
-                    </div>
-
+                  <form method='post' action='/SignIn'>
                     <div className="form-item mb-4">
                     <span className="icon">
                       <MdEmail></MdEmail>
@@ -51,18 +40,19 @@ export default function SignIn() {
                         placeholder="Enter Password"
                       />
                     </div>
-
-                    <div className="d-flex justify-content-center">
-                      <Link
+                   
+                    <div className="btns-container">
+                    <Link
                         type="button" to={"/profile"}
                         className="btn btn-outline-secondary"
                       >
                         Login
                       </Link>
+                      <OAuth></OAuth>
                     </div>
 
                     <p className="text-center text-muted mt-5 mb-0">
-                      Have already an account?{" "}
+                      Don't have an account?{" "}
                       <Link to="/sign-up" className="fw-bold">
                         <u>Sign Up</u>
                       </Link>
