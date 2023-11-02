@@ -1,0 +1,35 @@
+.card {
+    border-radius: 15px;
+    background-color: #fff8ef5c;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0px;
+}
+
+.avatar {
+    width: 100px;
+    margin: 3.25rem auto 1rem auto;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .gradient-custom {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+    }
+  }

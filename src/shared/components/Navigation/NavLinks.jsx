@@ -22,12 +22,9 @@ export default function NavLinks() {
             <li className="nav-item">
                 <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
             </li>
-            {/* <li className="nav-item">
-                <NavLink className="nav-link" to="/questions">Questions</NavLink>
-            </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/u1/questions">Questions</NavLink>
-            </li> */}
+                <NavLink className="nav-link" to="/profile">Profile</NavLink>
+            </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="/sign-up">Sign Up</NavLink>
             </li>

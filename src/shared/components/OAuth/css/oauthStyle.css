@@ -1,4 +1,4 @@
-button {
+button.btn-danger {
     width: 100%;
     display: block;
     background-color: #bb2d3b !important;

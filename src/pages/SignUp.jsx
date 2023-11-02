@@ -12,7 +12,7 @@ export default function SignUp() {
     <section>
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div className="col-12 col-md-10 col-lg-8 col-xl-6">
               <div className="card mt-5 mb-5">
                 <div className="card-body p-5">
                   <h2 className="text-uppercase text-center mb-5">
