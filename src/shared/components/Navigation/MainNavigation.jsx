@@ -12,7 +12,7 @@ const MainNavigation = (props) => {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            Questions Bank&ensp;
+            Question Bank&ensp;
             <FaBook></FaBook>
           </Link>
           <button

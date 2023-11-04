@@ -1,16 +1,3 @@
-// import React from "react";
-// import { NavLink } from 'react-router-dom';
-
-// import './css/LinksStyle.css';
-
-// const NavLinks = props => {
-//     return (
-        
-//     )
-// };
-
-// export default NavLinks;
-
 import React from 'react';
 
 import { NavLink } from 'react-router-dom';
@@ -24,6 +11,9 @@ export default function NavLinks() {
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="/profile">Profile</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="/questions">Questions</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="/sign-up">Sign Up</NavLink>

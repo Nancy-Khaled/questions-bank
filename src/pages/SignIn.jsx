@@ -8,11 +8,11 @@ import OAuth from '../shared/components/OAuth/OAuth';
 
 export default function SignIn() {
   return (
-    <section className='mt-3 mb-4'>
+    <section className='mt-5 mb-5'>
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-12 col-md-10 col-lg-8 col-xl-6">
-              <div className="card mt-5 mb-5">
+              <div className="card">
                 <div className="card-body p-5">
                   <h2 className="text-uppercase text-center mb-5">
                     Sign In

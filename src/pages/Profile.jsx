@@ -58,11 +58,11 @@ export default function Profile() {
   // request.resource.contentType.matches('image/.*');
 
   return (
-    <section className="mt-4 mb-4">
+    <section className="mt-5 mb-5">
       <div className="container">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-12 col-md-10 col-lg-9 col-xl-7">
-            <div className="card mt-5 mb-5">
+            <div className="card">
               <div className="row g-0">
                 <div className="col-md-4 gradient-custom text-center text-white p-3">
                   <input
