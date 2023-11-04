@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaBook } from "react-icons/fa";
-
-import "./css/MainNavigation.css";
 import MainHeader from "./MainHeader.jsx";
 import NavLinks from "./NavLinks.jsx";
+
+import "./css/MainNavigation.css";
 
 const MainNavigation = (props) => {
   return (
